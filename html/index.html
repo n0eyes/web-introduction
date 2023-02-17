@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>noeyes</title>
+    <script src="/js/main.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="intro">
+      <h2>자기소개</h2>
+      <ul>
+        <li>이름: <b>노아이즈</b></li>
+        <li>사는 곳: 역삼</li>
+        <li>
+          <div>안녕하세요, 노아이즈 입니다</div>
+          <div>
+            본명은 정세연인데 seyeon을 뒤집어서 noeyes라는 닉네임을 짓게
+            되었습니다
+          </div>
+          <div>앞으로 잘 부탁드립니다!</div>
+        </li>
+      </ul>
+    </div>
+    <main class="main">
+      <h2>인생영화 TOP5</h2>
+      <table>
+        <th>순위</th>
+        <th>제목</th>
+        <th>포스터</th>
+        <th>줄거리</th>
+        <th>바로가기</th>
+        <tr>
+          <td>1</td>
+          <td>인비저블 게스트</td>
+          <td>
+            <img src="/images/invisible_guest.jpeg" />
+          </td>
+          <td>자신의 무죄를 입증하고자 고군 분투하는 주인공, 그리고 반전</td>
+          <td>
+            <a
+              href="https://search.naver.com/search.naver?where=nexearch&sm=tab_jum&query=%EC%9D%B8%EB%B9%84%EC%A0%80%EB%B8%94+%EA%B2%8C%EC%8A%A4%ED%8A%B8"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>타짜1</td>
+          <td>
+            <img src="/images/tazza.jpeg" />
+          </td>
+          <td>남루한 삶을 살던 주인공이 화투판에 끼게되며 벌어지는 이야기</td>
+          <td>
+            <a
+              href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%83%80%EC%A7%9C1&oquery=%ED%83%80%EC%A7%9C+1+%EC%A0%95%EB%B3%B4&tqi=h%2BI%2F3dp0J1ZssiA56wCssssst%2Bo-118662"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>레미제라블</td>
+          <td>
+            <img src="/images/remiserable.jpeg" />
+          </td>
+          <td>기존의 장발장을 각색한 뮤지컬 영화</td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=89755"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>쇼생크 탈출</td>
+          <td>
+            <img src="/images/shosank.jpeg" />
+          </td>
+          <td>아내를 살해했다는 누명을 쓰고 수감된 주인공의 탈옥기</td>
+          <td>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=17421"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>올빼미</td>
+          <td>
+            <img src="/images/owl.jpeg" />
+          </td>
+          <td>
+            맹인 침술가 경수가 세자의 살인 사건에 휘말리게 되며 벌어지는 스릴러
+          </td>
+          <td>
+            <a
+              href="https://movie.naver.com/movie/bi/mi/basic.naver?code=222301"
+              >바로가기</a
+            >
+          </td>
+        </tr>
+      </table>
+    </main>
+    <div class="guest-book">
+      <h2>방명록</h2>
+      <form class="guest-book-form">
+        <span>이름 :</span>
+        <input type="text" class="nameBox" />
+        <h4>취향 영화</h4>
+        <div class="form-check">
+          <input class="movie-checkbox" type="checkbox" id="movie1" />
+          <label class="form-check-label" for="movie1"> 인비저블 게스트 </label>
+        </div>
+        <div class="form-check">
+          <input class="movie-checkbox" type="checkbox" id="movie2" />
+          <label class="form-check-label" for="movie2"> 타짜1 </label>
+        </div>
+        <div class="form-check">
+          <input class="movie-checkbox" type="checkbox" id="movie3" />
+          <label class="form-check-label" for="movie3"> 레미제라블 </label>
+        </div>
+        <div class="form-check">
+          <input class="movie-checkbox" type="checkbox" id="movie4" />
+          <label class="form-check-label" for="movie4"> 쇼생크 탈출 </label>
+        </div>
+        <div class="form-check">
+          <input class="movie-checkbox" type="checkbox" id="movie5" />
+          <label class="form-check-label" for="movie5"> 올빼미 </label>
+        </div>
+
+        <div class="form-button-wrapper">
+          <button class="btn btn-outline-danger" type="submit">등록</button>
+          <button class="btn btn-outline-danger" type="reset">취소</button>
+        </div>
+      </form>
+      <div class="visitors">
+        <h3>방문자</h3>
+        <ol></ol>
+      </div>
+    </div>
+  </body>
+</html>
